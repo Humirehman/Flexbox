@@ -37,8 +37,11 @@ header{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
 }
 .head2{
+    display: flex;
+    justify-content: space-between;
     background-color: white;
 }
 .heading{
@@ -54,10 +57,12 @@ header{
     font-size: large;
     margin-left: 10px 8px 10px 8px;
 }
-.img{
-    padding: 5px;
-    margin: 20x 0px 0px 0px;
-    width: 500px;
+video{
+    max-height: 400px;
+}
+video{
+    display: inline-block;
+    vertical-align: baseline;
 }
 .button3{
     background-color: blueviolet;
